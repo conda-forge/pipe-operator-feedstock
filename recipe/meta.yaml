@@ -1,5 +1,5 @@
 {% set name = "pipe-operator" %}
-{% set version = "1.0.3" %}
+{% set version = "1.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pipe_operator-{{ version }}.tar.gz
-  sha256: bffce2645bebd30f0b3119bedfeb5451a91d4dae3edadf408d2de6a5e98dc44d
+  sha256: e0759450842bd505c48714dc93bc52f1027f9386fa34973485d1d870927071f3
 
 build:
   noarch: python
