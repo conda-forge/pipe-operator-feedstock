@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pipe-operator
-  version: "2.0.2"
+  version: "2.1.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pipe_operator-${{ version }}.tar.gz
-  sha256: 73717345f321c49c17f65532c8af0600fc03c089cf9e851f0229e32fd06724bc
+  sha256: 4826d71b888f54e0542161e72bece9dd4f1e7f637a643bd5039c075e6f889c80
 
 build:
   number: 0
